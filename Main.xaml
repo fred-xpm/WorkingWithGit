@@ -102,7 +102,7 @@
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
           <InArgument x:TypeArguments="x:String">Chicago</InArgument>
           <InArgument x:TypeArguments="x:String">New York</InArgument>
-          <InArgument x:TypeArguments="x:String">San Francisco</InArgument>
+          <InArgument x:TypeArguments="x:String">San Diego</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
       <sap:WorkflowViewStateService.ViewState>
@@ -113,10 +113,12 @@
     </uasc:BuildCollection>
     <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" sap2010:Annotation.AnnotationText="KEY here is the UK and the VALUE is a list of strings with 3 UK city names" DisplayName="Build Collection - Cities UK" FirstItem="London" sap:VirtualizedContainerService.HintSize="450,220" sap2010:WorkflowViewState.IdRef="BuildCollection`1_2" Result="[Cities(&quot;UK&quot;)]">
       <uasc:BuildCollection.NextItems>
-        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="8">
           <InArgument x:TypeArguments="x:String">Manchester</InArgument>
           <InArgument x:TypeArguments="x:String">Bristol</InArgument>
           <InArgument x:TypeArguments="x:String">Edinburg</InArgument>
+          <InArgument x:TypeArguments="x:String" />
+          <InArgument x:TypeArguments="x:String">Cambridge</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
       <sap:WorkflowViewStateService.ViewState>
