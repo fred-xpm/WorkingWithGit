@@ -1,2 +1,5 @@
-'Working with list and Dictionaries' in UiPath Studio
-Demo for working with Git in UiPath Studio
+# UiPath Studio<br>
+
+-Demo for working with Git & GitHub in UiPath Studio \
+-Workflow: 'Working with List and Dictionaries'
+
